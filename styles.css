@@ -35,14 +35,14 @@ ul {
 }
 
 h3 {
-  color: #c6c9e8;
+  color: black;
   margin: 10px 0;
   font-size: 1.25em;
 }
 
 .resume {
   width: 960px;
-  background: #1a237e;
+  background: #086171;
   color: #ffffff;
   margin: 20px auto;
   box-shadow: 10px 10px #0e1442;
@@ -69,12 +69,12 @@ h3 {
 .resume .base {
   width: 30%;
   padding: 30px 15px;
-  background: #283593;
+  background: #2b98b0;
   color: #ffffff;
 }
 
 .resume .base .profile {
-  background: #c6c9e8;
+  background: black;
   padding: 30px 15px 40px 15px;
   margin: -30px -15px 45px -15px;
   position: relative;
@@ -104,11 +104,11 @@ h3 {
   align-items: center;
 }
 
-.resume .base .profile .fa-rocket {
+.resume .base .profile .fa-robot {
   font-size: 100px;
   text-align: center;
   margin: auto;
-  color: #283593;
+  color: #2b98b0;
 }
 
 .resume .base .profile .info {
@@ -121,7 +121,7 @@ h3 {
   margin-bottom: 0;
   font-size: 1.75em;
   text-transform: capitalize;
-  color: #1a237e;
+  color: #086171;
 }
 
 .resume .base .profile .info .job {
@@ -129,7 +129,7 @@ h3 {
   margin-bottom: 0;
   font-size: 1.5em;
   text-transform: lowercase;
-  color: #283593;
+  color: #2b98b0;
 }
 
 .resume .base .contact div {
@@ -137,7 +137,7 @@ h3 {
 }
 
 .resume .base .contact div a:hover {
-  color: #c6c9e8;
+  color: #FDF5E6;
 }
 
 .resume .base .contact div a:hover span::after {
@@ -145,11 +145,11 @@ h3 {
 }
 
 .resume .base .contact div:hover i {
-  color: #c6c9e8;
+  color: #FDF5E6;
 }
 
 .resume .base .contact div i {
-  color: #c6c9e8;
+  color: black;
   width: 20px;
   height: 20px;
   font-size: 20px;
@@ -165,7 +165,7 @@ h3 {
 .resume .base .contact div span::after {
   content: "";
   position: absolute;
-  background: #c6c9e8;
+  background: #FDF5E6;
   height: 1px;
   width: 0;
   bottom: 0;
@@ -184,7 +184,7 @@ h3 {
 }
 
 .resume .base .follow .box a:hover i {
-  background: #c6c9e8;
+  background: #FDF5E6;
   border-radius: 5px;
   transform: rotate(45deg) scale(0.8);
 }
@@ -196,12 +196,12 @@ h3 {
 .resume .base .follow .box i {
   display: inline-block;
   font-size: 30px;
-  background: #c6c9e8;
+  background: black;
   width: 60px;
   height: 60px;
   border-radius: 50%;
   line-height: 60px;
-  color: #283593;
+  color: #2b98b0;
   margin: 0 10px 10px 10px;
   transition-duration: 0.3s;
 }
@@ -237,8 +237,8 @@ h3 {
 }
 
 .resume .func h3 i {
-  color: #283593;
-  background: #c6c9e8;
+  color: #2b98b0;
+  background: black;
   width: 42px;
   height: 42px;
   font-size: 20px;
@@ -276,12 +276,12 @@ h3 {
 
 .resume .func .work ul li:hover span,
 .resume .func .edu ul li:hover span {
-  color: #c6c9e8;
+  color: #FDF5E6;
 }
 
 @keyframes circle {
   from {
-    box-shadow: 0 0 0 0px #c6c9e8;
+    box-shadow: 0 0 0 0px #FDF5E6;
   }
   to {
     box-shadow: 0 0 0 6px rgba(255, 255, 255, 0);
@@ -318,7 +318,7 @@ h3 {
   width: 7px;
   height: 7px;
   border: 3px solid #ffffff;
-  background: #c6c9e8;
+  background: black;
   border-radius: 50%;
   left: 3px;
   z-index: 1;
@@ -340,20 +340,20 @@ h3 {
 
 .resume .func .work {
   width: 48%;
-  background: #283593;
+  background: #2b98b0;
   padding: 15px;
   margin: 0 4% 15px 0;
 }
 
 .resume .func .edu {
   width: 48%;
-  background: #283593;
+  background: #2b98b0;
   padding: 15px;
 }
 
 .resume .func .skills-prog {
   clear: both;
-  background: #283593;
+  background: #2b98b0;
   padding: 15px;
 }
 
@@ -369,12 +369,12 @@ h3 {
 }
 
 .resume .func .skills-prog ul li:hover {
-  color: #c6c9e8;
+  color: #FDF5E6;
 }
 
 .resume .func .skills-prog ul li:hover .skills-bar .bar {
-  background: #c6c9e8;
-  box-shadow: 0 0 0 1px #c6c9e8;
+  background: #FDF5E6;
+  box-shadow: 0 0 0 1px #FDF5E6;
 }
 
 .resume .func .skills-prog ul li span {
@@ -394,14 +394,14 @@ h3 {
   position: absolute;
   top: -1px;
   height: 4px;
-  background: #c6c9e8;
-  box-shadow: 0 0 0 #c6c9e8;
+  background: black;
+  box-shadow: 0 0 0 black;
   border-radius: 5px;
 }
 
 .resume .func .skills-soft {
   clear: both;
-  background: #283593;
+  background: #2b98b0;
   padding: 15px;
   margin: 15px 0 0;
 }
@@ -417,7 +417,7 @@ h3 {
 }
 
 .resume .func .skills-soft ul li:hover svg .cbar {
-  stroke: #c6c9e8;
+  stroke: #FDF5E6;
   stroke-width: 4px;
 }
 
@@ -439,7 +439,7 @@ h3 {
 
 .resume .func .skills-soft ul li svg .cbar {
   stroke-width: 3px;
-  stroke: #c6c9e8;
+  stroke: black;
   stroke-linecap: round;
 }
 
@@ -457,7 +457,7 @@ h3 {
 }
 
 .resume .func .interests {
-  background: #283593;
+  background: #2b98b0;
   margin: 15px 0 0;
   padding: 15px;
 }
@@ -486,7 +486,7 @@ h3 {
 }
 
 .resume .func .interests-items div:hover span {
-  color: #c6c9e8;
+  color: #FDF5E6;
   transition-duration: 0.3s;
 }
 
@@ -495,7 +495,7 @@ h3 {
   width: 60px;
   height: 60px;
   line-height: 60px;
-  color: #c6c9e8;
+  color: black;
   transition-duration: 0.3s;
 }
 
